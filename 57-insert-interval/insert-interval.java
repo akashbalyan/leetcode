@@ -3,7 +3,7 @@ class Solution {
         
         List<int[]> list = new ArrayList<>(Arrays.asList(intervals));
         list.add(newInterval);
-        Collections.sort(list,(a,b)->a[0]-b[0]);
+        Collections.sort(list,(a,b)->Integer.compare(a[0],b[0]));
 
         List<int[] > result = new ArrayList<>();
 
