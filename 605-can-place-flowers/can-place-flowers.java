@@ -30,7 +30,7 @@ class Solution {
 
                 
             }else{
-                i=i+2;
+                i=i+1;
             }
             if(count>=n){
                 return true;
